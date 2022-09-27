@@ -10,5 +10,6 @@ public class Exercise2 {
 		System.out.println("What's your age?");
 		edad = sc.nextByte();
 		System.out.println("The next year your age will be " + (edad + 1));
+		sc.close();
 	}
 }
